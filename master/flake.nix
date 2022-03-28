@@ -11,7 +11,6 @@
   inputs.src-darwin-master.ref   = "refs/heads/master";
   inputs.src-darwin-master.owner = "yglukhov";
   inputs.src-darwin-master.repo  = "darwin";
-  inputs.src-darwin-master.dir   = "";
   inputs.src-darwin-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
